@@ -12,4 +12,4 @@ const fetch = () => {
 
 fetch()
     .then(result => console.log(JSON.parse(result)))
-    .catch(error => console.log(error));
+    .catch(error => console.log(JSON.parse(error)));
